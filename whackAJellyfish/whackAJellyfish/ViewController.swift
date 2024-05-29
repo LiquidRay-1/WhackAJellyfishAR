@@ -61,8 +61,8 @@ class ViewController: UIViewController {
             var enemyNode: SCNNode?
             if level % 5 == 0 {
                 // Boss level
-                enemyScene = SCNScene(named: "art.scnassets/medusa.scn")
-                enemyNode = enemyScene?.rootNode.childNode(withName: "medusa", recursively: false)
+                enemyScene = SCNScene(named: "art.scnassets/therock.scn")
+                enemyNode = enemyScene?.rootNode.childNode(withName: "therock", recursively: false)
             } else {
                 let enemyType = enemyTypes.randomElement()!
                 enemyScene = SCNScene(named: "art.scnassets/\(enemyType).scn")

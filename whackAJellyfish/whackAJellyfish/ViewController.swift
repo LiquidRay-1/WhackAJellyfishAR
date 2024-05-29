@@ -7,7 +7,6 @@
 
 import UIKit
 import ARKit
-//import Each
 
 class ViewController: UIViewController {
     
@@ -26,7 +25,7 @@ class ViewController: UIViewController {
     
     
     let configuration = ARWorldTrackingConfiguration()
-    var enemyTypes = ["Jellyfish", "OtherEnemy"]
+    var enemyTypes = ["basketball", "medusa"]
     
     override func viewDidLoad() {
             super.viewDidLoad()
@@ -62,8 +61,8 @@ class ViewController: UIViewController {
             var enemyNode: SCNNode?
             if level % 5 == 0 {
                 // Boss level
-                enemyScene = SCNScene(named: "art.scnassets/Boss.scn")
-                enemyNode = enemyScene?.rootNode.childNode(withName: "Boss", recursively: false)
+                enemyScene = SCNScene(named: "art.scnassets/medusa.scn")
+                enemyNode = enemyScene?.rootNode.childNode(withName: "medusa", recursively: false)
             } else {
                 let enemyType = enemyTypes.randomElement()!
                 enemyScene = SCNScene(named: "art.scnassets/\(enemyType).scn")
@@ -121,7 +120,7 @@ class ViewController: UIViewController {
                 self.countdown -= 1
                 self.timerLabel.text = String(self.countdown)
                 if self.countdown == 0 {
-                    self.timerLabel.text = "you lose"
+                    self.timerLabel.text = "Perdiste"
                     return .stop
                 }
                 return .continue

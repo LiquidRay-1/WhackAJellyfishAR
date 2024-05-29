@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D2887C92C0785B800ED5871 /* Each.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2887C82C0785B800ED5871 /* Each.swift */; };
+		3D2887CB2C07862300ED5871 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D2887CA2C07862200ED5871 /* art.scnassets */; };
+		3D2887CD2C07865500ED5871 /* Jellyfish-skin.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D2887CC2C07865500ED5871 /* Jellyfish-skin.png */; };
 		C67F17692C0474AE00EBE487 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67F17682C0474AE00EBE487 /* AppDelegate.swift */; };
 		C67F176B2C0474AE00EBE487 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67F176A2C0474AE00EBE487 /* SceneDelegate.swift */; };
 		C67F176D2C0474AE00EBE487 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67F176C2C0474AE00EBE487 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D2887C82C0785B800ED5871 /* Each.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Each.swift; sourceTree = "<group>"; };
+		3D2887CA2C07862200ED5871 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		3D2887CC2C07865500ED5871 /* Jellyfish-skin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jellyfish-skin.png"; sourceTree = "<group>"; };
 		C67F17652C0474AE00EBE487 /* whackAJellyfish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whackAJellyfish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C67F17682C0474AE00EBE487 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C67F176A2C0474AE00EBE487 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,13 +62,16 @@
 		C67F17672C0474AE00EBE487 /* whackAJellyfish */ = {
 			isa = PBXGroup;
 			children = (
+				3D2887C82C0785B800ED5871 /* Each.swift */,
 				C67F17682C0474AE00EBE487 /* AppDelegate.swift */,
 				C67F176A2C0474AE00EBE487 /* SceneDelegate.swift */,
 				C67F176C2C0474AE00EBE487 /* ViewController.swift */,
+				3D2887CA2C07862200ED5871 /* art.scnassets */,
 				C67F176E2C0474AE00EBE487 /* Main.storyboard */,
 				C67F17712C0474B000EBE487 /* Assets.xcassets */,
 				C67F17732C0474B000EBE487 /* LaunchScreen.storyboard */,
 				C67F17762C0474B000EBE487 /* Info.plist */,
+				3D2887CC2C07865500ED5871 /* Jellyfish-skin.png */,
 			);
 			path = whackAJellyfish;
 			sourceTree = "<group>";
@@ -126,6 +135,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C67F17722C0474B000EBE487 /* Assets.xcassets in Resources */,
+				3D2887CD2C07865500ED5871 /* Jellyfish-skin.png in Resources */,
+				3D2887CB2C07862300ED5871 /* art.scnassets in Resources */,
 				C67F17752C0474B000EBE487 /* Base in Resources */,
 				C67F17702C0474AE00EBE487 /* Base in Resources */,
 			);
@@ -140,6 +151,7 @@
 			files = (
 				C67F176D2C0474AE00EBE487 /* ViewController.swift in Sources */,
 				C67F17692C0474AE00EBE487 /* AppDelegate.swift in Sources */,
+				3D2887C92C0785B800ED5871 /* Each.swift in Sources */,
 				C67F176B2C0474AE00EBE487 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

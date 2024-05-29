@@ -45,9 +45,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q1f-Iy-JwL">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q1f-Iy-JwL">
                                 <rect key="frame" x="306" y="762" width="68" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Reset"/>
                                 <connections>
@@ -60,10 +59,12 @@
                         <constraints>
                             <constraint firstItem="EiW-hR-Q7i" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="66" id="Chm-4n-pgq"/>
                             <constraint firstItem="EiW-hR-Q7i" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Jul-bC-4fy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Q1f-Iy-JwL" secondAttribute="trailing" constant="19" id="PGq-rr-M8N"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gIb-uC-JNU" secondAttribute="bottom" constant="21" id="QuC-Ms-AZe"/>
                             <constraint firstItem="EiW-hR-Q7i" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="SsO-cw-ihs"/>
                             <constraint firstItem="EiW-hR-Q7i" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Tx1-tc-7pw"/>
                             <constraint firstItem="EiW-hR-Q7i" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ffS-gO-GV7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Q1f-Iy-JwL" secondAttribute="bottom" constant="21" id="oKM-k0-ERU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="EiW-hR-Q7i" secondAttribute="bottom" id="tl4-g8-Vps"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EiW-hR-Q7i" secondAttribute="trailing" id="xwm-kM-qkX"/>
                         </constraints>

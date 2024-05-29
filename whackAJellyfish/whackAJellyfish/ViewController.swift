@@ -78,7 +78,7 @@ class ViewController: UIViewController {
             let touchCoordinates = sender.location(in: sceneViewTappedOn)
             let hitTest = sceneViewTappedOn.hitTest(touchCoordinates)
             if (hitTest.isEmpty) {
-                print("didn't touch anything")
+                print("No se tocó nada")
             } else {
                 if (countdown > 0) {
                     let results = hitTest.first!
